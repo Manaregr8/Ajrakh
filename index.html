@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Art of Ajrakh</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&amp;family=Lato:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #ead8be;
+        }
+        h1, h2, h3, h4, h5, h6, .font-serif {
+            font-family: 'Cormorant Garamond', serif;
+        }
+        .heroBannerA{
+          position: absolute;
+          top: -10px;
+          left: -10px;
+          background-color: #ead8be;
+          padding: 20px;
+          border-bottom-right-radius: 20px;
+        }
+        .containerImage{
+          position:relative;
+          bottom: 0px;
+          margin-top: auto;
+          width: 100%;
+          height: 480px;
+          overflow: hidden;
+          padding: 0 20px;
+        }
+        .imageBanner{
+          position: absolute;
+          right: 20px;
+          bottom: 0px;
+          height: fit-content;
+          max-height: 480px;
+          object-fit: contain;
+          filter: sepia(160%) hue-rotate(330deg) saturate(120%) drop-shadow(14px 8px 18px rgba(0, 0, 0, 0.65));
+        }
+        @media(max-width:1024px){
+           .imageBanner{
+          filter: sepia(160%) hue-rotate(330deg) saturate(120%) drop-shadow(10px 8px 7px rgba(0, 0, 0, 0.65));
+        }
+        }
+        .bannerHero{
+          padding: 0 40px;
+          position: relative;
+        }
+        .contentContainer{
+          display: flex;
+          flex-direction: column;
+        }
+        .contentContainer button{
+          margin-top: 30px;
+          width: 300px;
+        }
+        .imageAboutUsBanner{
+          height: 140%;
+          width: 100%;
+          object-fit: cover;
+          border-radius: 10px;
+          object-position: top;
+        }
+        .imgCard img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 5px;
+        }
+        #mobile-menu {
+          transition: transform 0.3s ease-in-out;
+        }
+        #mobile-menu.active {
+          transform: translateX(-100%);
+        }
+        body.menu-open {
+          overflow: hidden;
+        }
+        .textNavColor{
+          color:#6b4226;
+        }
+        .imageTestimonials{
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        @media(max-width:1024px){
+          .imageBanner{
+            right: -20px;
+          }
+        }
+        #close-menu{
+          margin-right: 140px;
+        }
+        @media(max-width:768px){
+          .bannerHero{
+            margin-top: 20px;
+            padding: 20px 0;
+          }
+          .displayNone{
+             display: none;
+          }
+          .containerImage{
+            display: none;
+            padding: 20px 10px;
+          }
+          .contentContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .imageAboutUsBanner{
+            height: 120%;
+            margin-top: -40px;
+            object-fit: cover;
+            object-position: top;
+          }
+        }
+        .filter-buttons {
+          display: flex;
+          gap: 0.75rem;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+        @media (max-width: 529px) {
+          .filter-buttons {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+          }
+        }
+        .product-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+          gap: 1.25rem;
+        }
+        @media (max-width: 529px) {
+          .product-grid {
+            grid-template-columns: 1fr;
+          }
+        }
+</style>
+</head>
+<body class="bg-[#EAD8BE]">
+<header class=" fixed top-0 left-0 w-full p-4 bg-white shadow-md z-50 flex items-center justify-between">
+<div class="container mx-auto flex justify-between items-center"> 
+<div class="text-4xl font-serif font-bold textNavColor">AJURAKU</div>
+<nav class="hidden md:flex space-x-6">
+<a class="text-stone-600 hover:text-stone-900" href="#products">Sarees</a>
+<a class="text-stone-600 hover:text-stone-900" href="#products">Suits &amp; Dupattas</a>
+<a class="text-stone-600 hover:text-stone-900" href="#products">New Arrivals</a>
+<a class="text-stone-600 hover:text-stone-900" href="#about">About</a>
+</nav>
+<div class="flex items-center space-x-4">
+<button class="md:hidden">
+<span class="material-icons text-stone-600">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="container mt-[50px] mx-auto p-4 md:p-8">
+
+<!-- Hero Section -->
+<section class="bannerHero bg-[linear-gradient(120deg,#996737,#7e5126)] rounded-lg text-white flex flex-col md:flex-row items-center mb-12">
+  <p class="heroBannerA text-4xl font-serif font-bold text-stone-800">A</p>
+  <div class="contentContainer md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+    <h2 class="text-2xl md:text-3xl font-serif">THE ART OF</h2>
+    <h1 class="text-5xl md:text-7xl pt-3 font-bold font-serif mb-6">AJRAKH</h1>
+    <p>Every creation at Ajuraku is a bridge between the past and present – a connection to heritage, artistry, and the spirit of slow fashion. When you wear Ajuraku, you wear Ajrakh reimagined – luxurious, graceful, and everlasting.</p>
+    <button onclick="window.location.href='#products';"  class="bg-[#6B4226] text-white py-3 px-8 rounded-md hover:bg-opacity-90 transition-colors">SHOP NOW</button>
+  </div>
+  <div class="displayNone md:w-1/2 flex justify-center relative">
+    <div class="containerImage">
+      <img src="./assets/site/Win the Glow-Up You Deserve! (17).png" alt="banner image" class="imageBanner"/>
+    </div>
+  </div>
+</section>
+
+<!-- Category Section -->
+<section class="text-center mb-12">
+<h2 class="text-4xl font-serif text-stone-800">THE ART OF AJRAKH</h2>
+<p class="text-stone-600 mt-4 max-w-2xl mx-auto">Discover the rich history and exquisite craftsmanship behind Ajrakh silk.</p>
+</section>
+
+<section class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+<div class="text-center">
+<div class="imgCard w-full h-80 bg-[linear-gradient(120deg,#996737,#7e5126)] rounded-lg flex items-center justify-center mb-4">
+<img src="./assets/categories/WhatsApp Image 2025-09-02 at 4.29.04 PM (1).jpeg" alt="saree category">
+</div>
+<h3 class="text-2xl font-serif text-stone-800">SAREES</h3>
+<button onclick="window.location.href='#products';"  class="bg-[#6B4226] text-white py-2 px-6 rounded-md mt-2 hover:bg-opacity-90 transition-colors">SHOP NOW</button>
+</div>
+<div class="text-center">
+<div class="imgCard w-full h-80 bg-[linear-gradient(120deg,#996737,#7e5126)] rounded-lg flex items-center justify-center mb-4">
+<img src="./assets/site/WhatsApp Image 2025-09-02 at 4.29.04 PM.jpeg" alt="suit category">
+</div>
+<h3 class="text-2xl font-serif text-stone-800">SUITS &amp; DUPATTAS</h3>
+<button onclick="window.location.href='#products';"  class="bg-[#6B4226] text-white py-2 px-6 rounded-md mt-2 hover:bg-opacity-90 transition-colors">SHOP NOW</button>
+</div>
+<div class="text-center">
+<div class="imgCard w-full h-80 bg-[linear-gradient(120deg,#996737,#7e5126)] rounded-lg flex items-center justify-center mb-4">
+<img src="./assets/categories/WhatsApp Image 2025-09-02 at 5.09.11 PM.jpeg" alt="new arrivals">
+</div>
+<h3 class="text-2xl font-serif text-stone-800">NEW ARRIVALS</h3>
+<button onclick="window.location.href='#products';"  class="bg-[#6B4226] text-white py-2 px-6 rounded-md mt-2 hover:bg-opacity-90 transition-colors">SHOP NOW</button>
+</div>
+</section>
+
+<!-- Products Section -->
+<section id="products" class="text-center mb-12">
+    <h2 class="text-4xl font-serif text-stone-800 mb-6">Our Products</h2>
+    <div class="filter-buttons mb-8">
+      <button class="filter-btn bg-[#6B4226] text-white py-2 px-6 rounded-md" data-category="sarees">Sarees</button>
+      <button class="filter-btn bg-white text-stone-600 border border-stone-300 py-2 px-6 rounded-md" data-category="suits">Suits</button>
+      <button class="filter-btn bg-white text-stone-600 border border-stone-300 py-2 px-6 rounded-md" data-category="dupattas">Dupattas</button>
+      <button class="filter-btn bg-white text-stone-600 border border-stone-300 py-2 px-6 rounded-md" data-category="new">New Arrivals</button>
+    </div>
+    <div id="product-grid" class="product-grid"></div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="bg-[linear-gradient(120deg,#996737,#7e5126)] rounded-lg text-white p-8 md:p-12 flex flex-col md:flex-row items-center mb-12 gap-8">
+<div class="md:w-1/2 w-full">
+<div class="w-full h-80 md:h-96 rounded-lg flex items-center justify-center">
+<img class="imageAboutUsBanner" src="./assets/site/Gemini_Generated_Image_te9dphte9dphte9d.webp" alt="about us banner image">
+</div>
+</div>
+<div class="md:w-1/2 w-full text-center md:text-left">
+<h2 class="text-4xl md:text-5xl font-serif mb-6">About Us</h2>
+<p class="text-lg leading-relaxed">
+Rooted in the deserts of Sindh and Kutch, Ajrakh has always been more than fabric – it is a story of patience, devotion, and harmony with nature. Each piece is created using natural dyes, intricate block printing, and centuries-old techniques passed down through generations of skilled artisans.
+<br>
+Our vision at Ajuraku is to bring this living art form into the modern world while preserving its authenticity. By blending Ajrakh’s rich legacy with contemporary elegance, we craft clothing and accessories that are not just fashion, but a statement of culture, sustainability, and timeless charm.
+<br>
+<strong>Ajuraku – Where Ajrakh Lives On.</strong>
+</p>
+</div>
+</section>
+<section class="p-8 md:p-16 text-center">
+<h2 class="text-4xl md:text-5xl font-serif text-stone-800 mb-8">CUSTOMER LOVE</h2>
+<div class="flex flex-col items-center">
+<div class="w-24 h-24 bg-stone-300 rounded-full flex items-center justify-center mb-6">
+<img class="imageTestimonials" src="./assets/site/customer-review.png"/>
+</div>
+<blockquote class="max-w-2xl mx-auto">
+<p class="text-stone-600 text-lg md:text-xl italic mb-4">"I received my Ajrakh saree yesterday and it is absolutely breathtaking. The colors are so vibrant and the craftsmanship is exquisite. I've received so many compliments already. Thank you for preserving this beautiful art form!"</p>
+<cite class="text-stone-800 font-semibold not-italic">– Priya S.</cite>
+</blockquote>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="bg-white rounded-lg p-8 md:p-16 mt-12">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div>
+<h2 class="text-4xl font-serif text-stone-800 mb-6">Contact Us</h2>
+<p class="text-stone-600 mb-8">Have a question? We'd love to hear from you.</p>
+<div class="space-y-4 text-stone-700">
+<div class="flex items-center">
+<span class="material-icons text-stone-500 mr-3">email</span>
+<a class="hover:text-[#6B4226]" href="mailto:ajrakhsilkcollection@gmail.com">ajrakhsilkcollection@gmail.com</a>
+</div>
+<div class="flex items-center">
+<span class="material-icons text-stone-500 mr-3">phone</span>
+<a class="hover:text-[#6B4226]" href="tel:+918810473779">+91 8810473779</a>
+</div>
+</div>
+</div>
+<div>
+<form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+  <!-- ✅ Web3Forms access key -->
+  <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+  <div>
+    <label class="block text-sm font-medium text-stone-700" for="name">Name</label>
+    <input autocomplete="name" class="mt-1 block w-full rounded-md border-stone-300 shadow-sm focus:border-[#A07C5B] focus:ring-[#A07C5B] sm:text-sm" id="name" name="name" type="text" required>
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium text-stone-700" for="email">Email</label>
+    <input autocomplete="email" class="mt-1 block w-full rounded-md border-stone-300 shadow-sm focus:border-[#A07C5B] focus:ring-[#A07C5B] sm:text-sm" id="email" name="email" type="email" required>
+  </div>
+
+  <div>
+    <label class="block text-sm font-medium text-stone-700" for="message">Message</label>
+    <textarea class="mt-1 block w-full rounded-md border-stone-300 shadow-sm focus:border-[#A07C5B] focus:ring-[#A07C5B] sm:text-sm" id="message" name="message" rows="4" required></textarea>
+  </div>
+
+  <div>
+    <button class="w-full bg-[#6B4226] text-white py-3 px-6 rounded-md hover:bg-opacity-90 transition-colors" type="submit">Send Message</button>
+  </div>
+</form>
+
+</div>
+</div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-[linear-gradient(120deg,#996737,#7e5126)] mt-12 py-8">
+<div class="container mx-auto text-center text-stone-500">
+<p class="text-white">© 2025 All rights reserved.</p>
+</div>
+</footer>
+
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="fixed top-0 right-[-100%] w-[80%] h-full bg-[#6B4226] z-50 transition-all duration-300 ease-in-out shadow-xl">
+   <button id="close-menu" class="absolute top-4 right-4 bg-white text-[#6B4226] font-semibold py-2 px-4 rounded-md hover:bg-stone-200 transition-colors">
+  Close Menu
+</button>
+<div class="p-6">
+  <div class="mt-12">
+    <div class="text-4xl font-serif font-bold text-white mb-8">A</div>
+    <nav class="flex flex-col space-y-4">
+      <a class="text-white text-lg hover:text-stone-300 flex items-center" href="#products"><span class="material-icons mr-2">shopping_bag</span>Sarees</a>
+      <a class="text-white text-lg hover:text-stone-300 flex items-center" href="#products"><span class="material-icons mr-2">checkroom</span>Suits & Dupattas</a>
+      <a class="text-white text-lg hover:text-stone-300 flex items-center" href="#products"><span class="material-icons mr-2">star</span>New Arrivals</a>
+      <a class="text-white text-lg hover:text-stone-300 flex items-center" href="#about"><span class="material-icons mr-2">info</span>About</a>
+    </nav>
+  </div>
+</div>
+</div>
+<div id="menu-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden"></div>
+
+<script>
+  // Mobile menu
+  const menuButton = document.querySelector('button.md\\:hidden');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const closeMenuButton = document.getElementById('close-menu');
+  const menuOverlay = document.getElementById('menu-overlay');
+
+  function openMenu() {
+      mobileMenu.classList.add('active');
+      menuOverlay.classList.remove('hidden');
+      document.body.classList.add('menu-open');
+  }
+  function closeMenu() {
+      mobileMenu.classList.remove('active');
+      menuOverlay.classList.add('hidden');
+      document.body.classList.remove('menu-open');
+  }
+  menuButton.addEventListener('click', openMenu);
+  closeMenuButton.addEventListener('click', closeMenu);
+  menuOverlay.addEventListener('click', closeMenu);
+  window.addEventListener('resize', () => {
+      if (window.innerWidth >= 768 && mobileMenu.classList.contains('active')) {
+          closeMenu();
+      }
+  });
+
+  // Product Section
+  async function fetchProducts() {
+    const res = await fetch("./products.json");
+    return res.json();
+  }
+
+  function renderProducts(products) {
+    const grid = document.getElementById("product-grid");
+    grid.innerHTML = "";
+    products.forEach(p => {
+      const link = document.createElement("a");
+      link.href = `https://wa.me/918810473779?text=Hi, I want to enquire about ${encodeURIComponent(p.name)}`;
+      link.target = "_blank";
+      link.className = "block text-center"; // ensure card styling works inside link
+
+      link.innerHTML = `
+        <div class="w-full h-64 bg-[linear-gradient(120deg,#996737,#7e5126)] rounded-lg overflow-hidden mb-4">
+          <img src="${p.image}" alt="${p.name}" class="w-full h-full object-cover">
+        </div>
+        <h3 class="text-xl font-serif text-stone-800">${p.name}</h3>
+        <p class="text-stone-600">₹${p.price.toLocaleString()}</p>
+      `;
+      grid.appendChild(link);
+    });
+  }
+
+  function setupFilters(data) {
+    const buttons = document.querySelectorAll(".filter-btn");
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        // reset styles
+        buttons.forEach(b => b.classList.remove("bg-[#6B4226]","text-white"));
+        buttons.forEach(b => b.classList.add("bg-white","text-stone-600"));
+
+        // highlight clicked
+        btn.classList.add("bg-[#6B4226]","text-white");
+        btn.classList.remove("bg-white","text-stone-600");
+
+        // filter products
+        const cat = btn.getAttribute("data-category");
+        let prods = [];
+        if (cat === "sarees") prods = data.sarees;
+        else if (cat === "suits") prods = data.suits;
+        else if (cat === "dupattas") prods = data.dupattas;
+        else if (cat === "new") prods = data.new;
+
+        renderProducts(prods);
+      });
+    });
+  }
+
+  fetchProducts().then(data => {
+    renderProducts(data.sarees); // default Sarees
+    setupFilters(data);
+  });
+</script>
+
+</body>
+</html>

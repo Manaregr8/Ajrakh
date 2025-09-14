@@ -1,0 +1,699 @@
+{
+  "sarees": [
+    {
+      "name": "Double Shade Bandhani Modal Silk Saree",
+      "price": 4500,
+      "image": "./assets/saree/IMG-20250820-WA0043.webp"
+    },
+    {
+      "name": "Double Shade Bandhani Modal Silk Saree",
+      "price": 4500,
+      "image": "./assets/saree/IMG-20250820-WA0044.webp"
+    },
+    {
+      "name": "Double Shade Bandhani Modal Silk Saree",
+      "price": 4500,
+      "image": "./assets/saree/IMG-20250820-WA0045.webp"
+    },
+    {
+      "name": "Double Shade Bandhani Modal Silk Saree",
+      "price": 4500,
+      "image": "./assets/saree/IMG-20250820-WA0046.webp"
+    },
+    {
+      "name": "Double Shade Bandhani Modal Silk Saree",
+      "price": 4500,
+      "image": "./assets/saree/IMG-20250820-WA0047.webp"
+    },
+    {
+      "name": "Pure Modal Silk Ajrakh Bandhani Silk Saree",
+      "price": 5000,
+      "image": "./assets/saree/IMG-20250828-WA0002.webp"
+    },
+    {
+      "name": "Pure Modal Silk Ajrakh Bandhani Silk Saree",
+      "price": 5000,
+      "image": "./assets/saree/IMG-20250828-WA0006.webp"
+    },
+    {
+      "name": "Pure Modal Silk Ajrakh Bandhani Silk Saree",
+      "price": 5000,
+      "image": "./assets/saree/IMG-20250828-WA0007.webp"
+    },
+    {
+      "name": "Pure Modal Silk Ajrakh Bandhani Silk Saree",
+      "price": 5000,
+      "image": "./assets/saree/IMG-20250828-WA0011.webp"
+    },
+    {
+      "name": "Pure Modal Silk Ajrakh Bandhani Silk Saree",
+      "price": 5000,
+      "image": "./assets/saree/IMG-20250828-WA0012.webp"
+    },
+    {
+      "name": "Pure Modal Silk Ajrakh Bandhani Silk Saree",
+      "price": 5000,
+      "image": "./assets/saree/IMG-20250828-WA0014.webp"
+    },
+    {
+      "name": "Pure Modal Silk Ajrakh Bandhani Silk Saree",
+      "price": 5000,
+      "image": "./assets/saree/IMG-20250828-WA0015.webp"
+    },
+    {
+      "name": "Pure Modal Silk Ajrakh Bandhani Silk Saree",
+      "price": 5000,
+      "image": "./assets/saree/IMG-20250828-WA0016.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0111.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0113.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0114.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0116.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0117.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0118.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0120.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0122.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0127.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0129.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0132.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0133.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0135.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0136.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0137.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0145.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0148.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0150.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0151.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0152.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0153.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0156.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0158.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0160.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0164.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0165.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0166.webp"
+    },
+    {
+      "name": "Natural Dye Hand Block Print Ajrakh Modal Silk Saree",
+      "price": 4200,
+      "image": "./assets/saree/IMG-20250903-WA0167.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0171.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0172.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0174.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0175.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0177.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0178.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0179.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0180.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0183.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0184.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0185.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0186.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0193.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0194.webp"
+    },
+    {
+      "name": "Tie Dye Shiburi Art Modal Silk Saree",
+      "price": 4000,
+      "image": "./assets/saree/IMG-20250903-WA0196.webp"
+    },
+    {
+      "name": "Pure Modal Silk Tissue Saree",
+      "price": 3500,
+      "image": "./assets/saree/WhatsApp Image 2025-09-05 at 5.28.00 PM (1).webp"
+    },
+    {
+      "name": "Pure Modal Silk Tissue Saree",
+      "price": 3500,
+      "image": "./assets/saree/WhatsApp Image 2025-09-05 at 5.28.00 PM (2).webp"
+    },
+    {
+      "name": "Pure Modal Silk Tissue Saree",
+      "price": 3500,
+      "image": "./assets/saree/WhatsApp Image 2025-09-05 at 5.28.00 PM.webp"
+    },
+    {
+      "name": "Pure Modal Silk Tissue Saree",
+      "price": 3500,
+      "image": "./assets/saree/WhatsApp Image 2025-09-05 at 5.28.01 PM (1).webp"
+    },
+    {
+      "name": "Pure Modal Silk Tissue Saree",
+      "price": 3500,
+      "image": "./assets/saree/WhatsApp Image 2025-09-05 at 5.28.01 PM.webp"
+    },
+    {
+      "name": "Pure Modal Silk Tissue Saree",
+      "price": 3500,
+      "image": "./assets/saree/WhatsApp Image 2025-09-05 at 5.28.02 PM (1).webp"
+    },
+    {
+      "name": "Pure Modal Silk Tissue Saree",
+      "price": 3500,
+      "image": "./assets/saree/WhatsApp Image 2025-09-05 at 5.28.02 PM.webp"
+    }
+  ],
+  "suits": [
+    {
+      "name": "Pure Modal Silk Bandhani Shuburi Suit",
+      "price": 4000,
+      "image": "./assets/suits/IMG-20250813-WA0137.webp"
+    },
+    {
+      "name": "Pure Modal Silk Bandhani Shuburi Suit",
+      "price": 4000,
+      "image": "./assets/suits/IMG-20250813-WA0138.webp"
+    },
+    {
+      "name": "Pure Modal Silk Bandhani Shuburi Suit",
+      "price": 4000,
+      "image": "./assets/suits/IMG-20250813-WA0139.webp"
+    },
+    {
+      "name": "Pure Modal Silk Bandhani Shuburi Suit",
+      "price": 4000,
+      "image": "./assets/suits/IMG-20250813-WA0140.webp"
+    },
+    {
+      "name": "Pure Ajrakh Modal Silk Bandhani Suit",
+      "price": 4800,
+      "image": "./assets/suits/IMG-20250822-WA0162.webp"
+    },
+    {
+      "name": "Pure Ajrakh Modal Silk Bandhani Suit",
+      "price": 4800,
+      "image": "./assets/suits/IMG-20250822-WA0162.webp"
+    },
+    {
+      "name": "Pure Ajrakh Modal Silk Bandhani Suit",
+      "price": 4800,
+      "image": "./assets/suits/IMG-20250822-WA0163.webp"
+    },
+    {
+      "name": "Pure Ajrakh Modal Silk Bandhani Suit",
+      "price": 4800,
+      "image": "./assets/suits/IMG-20250822-WA0164.webp"
+    },
+    {
+      "name": "Pure Ajrakh Modal Silk Bandhani Suit",
+      "price": 4800,
+      "image": "./assets/suits/IMG-20250822-WA0165.webp"
+    },
+    {
+      "name": "Pure Ajrakh Modal Silk Bandhani Suit",
+      "price": 4800,
+      "image": "./assets/suits/IMG-20250822-WA0166.webp"
+    },
+    {
+      "name": "Pure Ajrakh Modal Silk Bandhani Suit",
+      "price": 4800,
+      "image": "./assets/suits/IMG-20250822-WA0167.webp"
+    },
+    {
+      "name": "Pure Ajrakh Modal Silk Bandhani Suit",
+      "price": 4800,
+      "image": "./assets/suits/IMG-20250822-WA0168.webp"
+    },
+    {
+      "name": "Pure Ajrakh Modal Silk Bandhani Suit",
+      "price": 4800,
+      "image": "./assets/suits/IMG-20250822-WA0172.webp"
+    },
+    {
+      "name": "Pure Ajrakh Modal Silk Bandhani Suit",
+      "price": 4800,
+      "image": "./assets/suits/IMG-20250822-WA0173.webp"
+    },
+    {
+      "name": "Pure Ajrakh Modal Silk Bandhani Suit",
+      "price": 4800,
+      "image": "./assets/suits/IMG-20250822-WA0174.webp"
+    },
+    {
+  "name": "Pure Modal Silk Ghar Chola Suit",
+  "price": 3000,
+  "image": "./assets/suits/IMG-20250901-WA0005.webp"
+},
+{
+  "name": "Pure Modal Silk Ghar Chola Suit",
+  "price": 3000,
+  "image": "./assets/suits/IMG-20250901-WA0006.webp"
+},
+{
+  "name": "Pure Modal Silk Ghar Chola Suit",
+  "price": 3000,
+  "image": "./assets/suits/IMG-20250901-WA0010.webp"
+},
+{
+  "name": "Pure Modal Silk Ghar Chola Suit",
+  "price": 3000,
+  "image": "./assets/suits/IMG-20250901-WA0012.webp"
+},
+{
+  "name": "Pure Modal Silk Ghar Chola Suit",
+  "price": 3000,
+  "image": "./assets/suits/IMG-20250901-WA0014.webp"
+},
+{
+  "name": "Pure Modal Silk Ghar Chola Suit",
+  "price": 3000,
+  "image": "./assets/suits/IMG-20250901-WA0015.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250904-WA0040.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250904-WA0043.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250904-WA0045.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250904-WA0054.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250904-WA0055.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250904-WA0057.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250905-WA0051.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250905-WA0053.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250905-WA0056.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250905-WA0057.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250905-WA0058.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250905-WA0059.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250905-WA0061.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250905-WA0062.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250905-WA0063.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250905-WA0064.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250905-WA0065.webp"
+},
+{
+  "name": "Pure Modal Silk Tie Dye and Polka Dot Suit",
+  "price": 3500,
+  "image": "./assets/suits/IMG-20250905-WA0069.webp"
+}
+  ],
+  "new": [
+{
+  "name": "Cotton Ajrakh Veg Dyed Daman Aline Kurti",
+  "price": 2550,
+  "image": "./assets/new/IMG-20250905-WA0136.webp"
+},
+{
+  "name": "Cotton Ajrakh Veg Dyed Daman Aline Kurti",
+  "price": 2550,
+  "image": "./assets/new/IMG-20250905-WA0140.webp"
+},
+{
+  "name": "Cotton Ajrakh Veg Dyed Daman Aline Kurti",
+  "price": 2550,
+  "image": "./assets/new/IMG-20250905-WA0143.webp"
+},
+{
+  "name": "Cotton Ajrakh Veg Dyed Daman Aline Kurti",
+  "price": 2550,
+  "image": "./assets/new/IMG-20250905-WA0145.webp"
+},
+{
+  "name": "Cotton Ajrakh Veg Dyed Daman Aline Kurti",
+  "price": 2550,
+  "image": "./assets/new/IMG-20250905-WA0149.webp"
+},
+{
+  "name": "Ajrakh Style Hand Bag With Hand Embriodary and Mirror Work",
+  "price": 1599,
+  "image": "./assets/new/IMG-20250905-WA0152.webp"
+},
+{
+  "name": "Ajrakh Style Hand Bag With Hand Embriodary and Mirror Work",
+  "price": 1599,
+  "image": "./assets/new/IMG-20250905-WA0153.webp"
+},
+{
+  "name": "Ajrakh Style Hand Bag With Hand Embriodary and Mirror Work",
+  "price": 1599,
+  "image": "./assets/new/IMG-20250905-WA0154.webp"
+},
+{
+  "name": "Ajrakh Style Hand Bag With Hand Embriodary and Mirror Work",
+  "price": 1599,
+  "image": "./assets/new/IMG-20250905-WA0157.webp"
+},
+{
+  "name": "Pure Cotton Co-ord set",
+  "price": 1999,
+  "image": "./assets/new/IMG-20250911-WA0009.webp"
+}
+,
+{
+  "name": "Pure Cotton Co-ord set",
+  "price": 1999,
+  "image": "./assets/new/IMG-20250911-WA0012.webp"
+},
+{
+  "name": "Pure Cotton Co-ord set",
+  "price": 1999,
+  "image": "./assets/new/IMG-20250911-WA0207.webp"
+},
+{
+  "name": "Pure Cotton Co-ord set",
+  "price": 1999,
+  "image": "./assets/new/IMG-20250911-WA0211.webp"
+},
+{
+  "name": "Pure Cotton Co-ord set",
+  "price": 1999,
+  "image": "./assets/new/IMG-20250911-WA0212.webp"
+}
+
+  ],
+  "dupattas": [
+    {
+      "name": "Pure Modal Silk Ajrakh Print Dupatta",
+      "price": 1599,
+      "image": "./assets/dupatta/IMG-20250905-WA0105.webp"
+    },
+{
+  "name": "Pure Modal Silk Ajrakh Print Dupatta",
+  "price": 1599,
+  "image": "./assets/dupatta/IMG-20250905-WA0106.webp"
+},
+{
+  "name": "Pure Modal Silk Ajrakh Print Dupatta",
+  "price": 1599,
+  "image": "./assets/dupatta/IMG-20250905-WA0107.webp"
+},
+{
+  "name": "Pure Modal Silk Ajrakh Print Dupatta",
+  "price": 1599,
+  "image": "./assets/dupatta/IMG-20250905-WA0109.webp"
+},
+{
+  "name": "Pure Modal Silk Ajrakh Print Dupatta",
+  "price": 1599,
+  "image": "./assets/dupatta/IMG-20250905-WA0111.webp"
+},
+{
+  "name": "Pure Modal Silk Ajrakh Print Dupatta",
+  "price": 1599,
+  "image": "./assets/dupatta/IMG-20250905-WA0112.webp"
+},
+{
+  "name": "Pure Modal Silk Ajrakh Print Dupatta",
+  "price": 1599,
+  "image": "./assets/dupatta/IMG-20250905-WA0113.webp"
+},
+{
+  "name": "Pure Modal Silk Ajrakh Print Dupatta",
+  "price": 1599,
+  "image": "./assets/dupatta/IMG-20250905-WA0114.webp"
+},
+{
+  "name": "Pure Modal Silk Ajrakh Print Dupatta",
+  "price": 1599,
+  "image": "./assets/dupatta/IMG-20250905-WA0116.webp"
+},
+{
+  "name": "Pure Modal Silk Ajrakh Print Dupatta",
+  "price": 1599,
+  "image": "./assets/dupatta/IMG-20250905-WA0117.webp"
+},
+{
+  "name": "Pure Modal Silk Lagdi Patta Dupatta",
+  "price": 1500,
+  "image": "./assets/dupatta/IMG-20250905-WA0119.webp"
+},
+{
+  "name": "Pure Modal Silk Lagdi Patta Dupatta",
+  "price": 1500,
+  "image": "./assets/dupatta/IMG-20250905-WA0120.webp"
+},
+{
+  "name": "Pure Modal Silk Lagdi Patta Dupatta",
+  "price": 1500,
+  "image": "./assets/dupatta/IMG-20250905-WA0121.webp"
+},
+{
+  "name": "Pure Modal Silk Lagdi Patta Dupatta",
+  "price": 1500,
+  "image": "./assets/dupatta/IMG-20250905-WA0123.webp"
+},
+{
+  "name": "Pure Modal Silk Lagdi Patta Dupatta",
+  "price": 1500,
+  "image": "./assets/dupatta/IMG-20250905-WA0125.webp"
+},
+{
+  "name": "Pure Modal Silk Lagdi Patta Dupatta",
+  "price": 1500,
+  "image": "./assets/dupatta/IMG-20250905-WA0126.webp"
+},
+{
+  "name": "Pure Modal Silk Lagdi Patta Dupatta",
+  "price": 1500,
+  "image": "./assets/dupatta/IMG-20250905-WA0130.webp"
+},
+{
+  "name": "Pure Modal Silk Lagdi Patta Dupatta",
+  "price": 1500,
+  "image": "./assets/dupatta/IMG-20250905-WA0131.webp"
+},
+{
+  "name": "Pure Modal Silk Lagdi Patta Dupatta",
+  "price": 1500,
+  "image": "./assets/dupatta/IMG-20250905-WA0132.webp"
+},
+{
+  "name": "Pure Modal Silk Lagdi Patta Dupatta",
+  "price": 1500,
+  "image": "./assets/dupatta/IMG-20250905-WA0134.webp"
+},
+{
+  "name": "Pure Modal Silk Lagdi Patta Dupatta",
+  "price": 1500,
+  "image": "./assets/dupatta/IMG-20250905-WA0135.webp"
+}
+
+
+  ]
+}
