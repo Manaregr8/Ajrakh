@@ -29,9 +29,30 @@
             font-family: 'Lato', sans-serif;
             background-color: #ead8be;
         }
+
         h1, h2, h3, h4, h5, h6, .font-serif {
             font-family: 'Cormorant Garamond', serif;
         }
+        /* For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px; /* width of vertical scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #EAD8BE; /* background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6b4226; /* color of the scrollbar handle */
+  border-radius: 6px;        /* round edges */
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin;                /* auto | thin */
+  scrollbar-color: #6b4226 #EAD8BE;     /* thumb | track */
+}
+
         .heroBannerA{
           position: absolute;
           top: -10px;
