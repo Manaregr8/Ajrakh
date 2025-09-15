@@ -498,10 +498,34 @@ Our vision at Ajuraku is to bring this living art form into the modern world whi
     renderProducts(data.sarees); // default Sarees
     setupFilters(data);
   });
+const form = document.getElementById('contactForm');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault(); // stop default submit first
+
+    // send form via fetch
+    fetch(form.action, {
+      method: form.method,
+      body: new FormData(form),
+    })
+    .then(response => response.json())
+    .then(result => {
+      if (result.success) {
+        alert("✅ Message sent successfully!");
+        form.reset(); // clears all fields
+      } else {
+        alert("❌ Something went wrong. Please try again.");
+      }
+    })
+    .catch(() => {
+      alert("❌ Network error. Please try again.");
+    });
+  });
 </script>
 
 </body>
 </html>
+
 
 
 
