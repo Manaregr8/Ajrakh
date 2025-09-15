@@ -23,7 +23,6 @@
 
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&amp;family=Lato:wght@400;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 <style>
         body {
             font-family: 'Lato', sans-serif;
@@ -37,7 +36,60 @@
 ::-webkit-scrollbar {
   width: 10px; /* width of vertical scrollbar */
 }
+<style>
+/* ===============================
+   Cormorant Garamond
+================================ */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/assets/fonts/CormorantGaramond-Regular.woff2') format('woff2'),
+       url('/assets/fonts/CormorantGaramond-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/assets/fonts/CormorantGaramond-Bold.woff2') format('woff2'),
+       url('/assets/fonts/CormorantGaramond-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===============================
+   Lato
+================================ */
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/Lato-Regular.woff2') format('woff2'),
+       url('/assets/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/Lato-Bold.woff2') format('woff2'),
+       url('/assets/fonts/Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===============================
+   Material Icons
+================================ */
+@font-face {
+  font-family: 'Material Icons';
+  src: url('/assets/fonts/MaterialIcons-Regular.woff2') format('woff2'),
+       url('/assets/fonts/MaterialIcons-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 ::-webkit-scrollbar-track {
   background: white; /* background of the scrollbar track */
 }
@@ -356,10 +408,10 @@ Our vision at Ajuraku is to bring this living art form into the modern world whi
   <div class="mt-12">
     <div class="text-4xl font-serif font-bold text-white mb-8">A</div>
     <nav class="flex flex-col space-y-4">
-      <a class="text-white text-lg hover:text-stone-300 flex items-center" href="#products"><span class="material-icons mr-2">shopping_bag</span>Sarees</a>
-      <a class="text-white text-lg hover:text-stone-300 flex items-center" href="#products"><span class="material-icons mr-2">checkroom</span>Suits & Dupattas</a>
-      <a class="text-white text-lg hover:text-stone-300 flex items-center" href="#products"><span class="material-icons mr-2">star</span>New Arrivals</a>
-      <a class="text-white text-lg hover:text-stone-300 flex items-center" href="#about"><span class="material-icons mr-2">info</span>About</a>
+      <a class="text-white text-lg hover:text-stone-300 flex items-center" href="#products">Sarees</a>
+      <a class="text-white text-lg hover:text-stone-300 flex items-center" href="#products">Suits & Dupattas</a>
+      <a class="text-white text-lg hover:text-stone-300 flex items-center" href="#products">New Arrivals</a>
+      <a class="text-white text-lg hover:text-stone-300 flex items-center" href="#about">About</a>
     </nav>
   </div>
 </div>
@@ -451,3 +503,4 @@ Our vision at Ajuraku is to bring this living art form into the modern world whi
 
 </body>
 </html>
+
